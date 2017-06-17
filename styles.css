@@ -1,0 +1,30 @@
+/*Gutters: 2rem*/
+
+header {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+nav {
+    display: flex;
+}
+
+nav > a {
+    font-size: 2rem;
+    padding-right: 1rem;
+    text-decoration: none;
+}
+
+main {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+section {
+
+}
+
+h1 {
+    text-align: center;
+}
