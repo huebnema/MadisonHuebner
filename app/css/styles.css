@@ -68,15 +68,23 @@ ul {
 li {
   font-size: 1.25rem; }
 
+a {
+  color: #6C6764; }
+
 .demo-toggle-title {
   margin-top: 0.5rem; }
 
+.top-bar {
+  background-color: #CCCCCC; }
+  .top-bar ul {
+    background-color: transparent; }
+
 .menu a {
   color: black;
-  font-weight: bold; }
+  font-weight: 500; }
 
 .PictureFrame {
-  border: 3px solid #6C6764; }
+  border: 1px solid #CCCCCC; }
 
 .MarginBottom--1 {
   margin-bottom: 1rem; }

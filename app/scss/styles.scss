@@ -8,7 +8,8 @@ $bp-xlarge: 1440px;
 
 /*Colors*/
 $Gray: #6C6764;
-$LightGray: #cacaca;
+$LightGray: #CCCCCC;
+$DarkGray: #333333;
 
 
 
@@ -103,6 +104,10 @@ li {
     font-size: 1.25rem;
 }
 
+a {
+    color: $Gray;
+}
+
 //Foundation Overrides
 
 //This will bold the menu items when they are scrolled to the corresponding section. Foundation documentation says the class
@@ -116,10 +121,18 @@ li {
     margin-top: 0.5rem;
 }
 
+.top-bar {
+    background-color: $LightGray;
+
+    ul {
+        background-color: transparent;
+    }
+}
+
 .menu {
     a {
         color: black;
-        font-weight: bold;
+        font-weight: 500;
     }
 }
 
@@ -127,7 +140,7 @@ li {
 
 //Custom Styles
 .PictureFrame {
-    border: 3px solid $Gray;
+    border: 1px solid $LightGray;
 }
 
 
