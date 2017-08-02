@@ -10,9 +10,6 @@
 * {
   box-sizing: border-box; }
 
-header {
-  /*margin: 2rem;*/ }
-
 nav {
   background-color: white;
   display: flex;
@@ -27,9 +24,6 @@ nav > a {
   text-decoration: none;
   text-transform: uppercase; }
 
-nav > a:last-of-type {
-  margin-right: 0; }
-
 section {
   /*margin-left: 2rem;*/
   /*margin-right: 2rem;*/ }
@@ -42,7 +36,7 @@ img {
   width: 100%; }
 
 h1 {
-  font-size: 6rem;
+  font-size: 3.5rem;
   font-family: 'Eczar', serif;
   font-weight: 700;
   margin-bottom: 0;
@@ -71,49 +65,5 @@ ul {
 li {
   font-size: 1.25rem; }
 
-.splash {
-  background: url(../../images/bkg-1.png);
-  border-bottom: 1px solid #6C6764;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  padding-bottom: 8rem; }
-
-.splash__subtext {
-  margin-top: 0;
-  text-align: center; }
-
-.garden {
-  border-bottom: 1px solid #6C6764;
-  margin-bottom: 3rem;
-  margin-top: 3rem;
-  padding-bottom: 2rem; }
-
-.garden__title {
-  margin-left: 2rem; }
-
-.flower {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 1rem;
-  margin-left: 2rem;
-  margin-right: 2rem; }
-
-.flower__main {
-  width: 48%; }
-
-.flower__aside {
-  width: 48%; }
-
-.water {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 2rem;
-  margin-right: 2rem; }
-
-.water__item {
-  width: 30%; }
-
-.gardener {
-  margin-left: 2rem;
-  margin-right: 2rem; }
+.demo-toggle-title {
+  margin-top: 0.5rem; }

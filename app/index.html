@@ -5,52 +5,48 @@
     <meta name="viewport" content="width=device-width">
     <title>Madison Huebner</title>
     <!--build:css css/styles.min.css-->
-    <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/print.css">
     <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/print.css">
+    <link rel="stylesheet" href="css/styles.css">
     <!--endbuild-->
     <link href="https://fonts.googleapis.com/css?family=Eczar:400,700|Work+Sans" rel="stylesheet">
 </head>
 <body>
-<div data-sticky-container>
-    <div class="top-bar" data-sticky data-margin-top="0" id="example-menu">
-        <div class="top-bar-left">
-            <ul class="menu">
-                <li class="menu-text">Madison Huebner</li>
-            </ul>
-        </div>
-        <div class="top-bar-right">
-            <ul class="menu" data-magellan>
-                <li><a href="#first">Work</a></li>
-                <li><a href="#second">Services</a></li>
-                <li><a href="#third">About</a></li>
-                <li><a href="#fourth">Contact</a></li>
-            </ul>
+<header>
+    <div data-sticky-container>
+        <div class="top-bar" data-sticky data-margin-top="0" id="example-menu">
+            <div class="top-bar-left">
+                <ul class="menu">
+                    <!--<li class="menu-text">Madison Huebner</li>-->
+                </ul>
+            </div>
+            <div class="top-bar-right">
+                <ul class="menu" data-magellan>
+                    <li><a href="#first">Work</a></li>
+                    <li><a href="#second">Services</a></li>
+                    <li><a href="#third">About</a></li>
+                    <li><a href="#fourth">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </div>
-</div>
-
-<!-- Add content where magellan will be linked -->
-<div class="sections">
-    <section id="fourth" data-magellan-target="fourth">Contact</section>
-</div>
-
-
-<header class="splash">
-    <h1>MADISON HUEBNER</h1>
-    <p class="splash__subtext">User Experience Designer and Developer</p>
 </header>
-
 <main>
+    <div class="grid-x grid-container-padded">
+        <div class="cell">
+            <h1 class="text-center">MADISON HUEBNER</h1>
+            <h2 class="text-center">User Experience Designer and Developer</h2>
+        </div>
+    </div>
+
     <section id="first" data-magellan-target="first">
         <div class="grid-x grid-container-padded">
             <div class="cell">
                 <h2>Work</h2>
             </div>
         </div>
-        <div class="grid-x grid-container-padded">
+        <div class="grid-x grid-padding-x">
             <div class="cell medium-6">
                 <img src="http://via.placeholder.com/350x250" alt="">
             </div>
@@ -62,7 +58,7 @@
                 <p>Role: UX Design, UI Development</p>
             </div>
         </div>
-        <div class="grid-x grid-container-padded">
+        <div class="grid-x grid-padding-x">
             <div class="cell medium-6">
                 <img src="http://via.placeholder.com/350x250" alt="">
             </div>
@@ -79,7 +75,7 @@
             </div>
         </div>
 
-        <div class="grid-x grid-container-padded">
+        <div class="grid-x grid-padding-x">
             <div class="cell medium-6">
                 <img src="http://via.placeholder.com/350x250" alt="">
             </div>
@@ -93,12 +89,12 @@
         </div>
     </section>
     <section id="second" data-magellan-target="second">
-        <div class="grid-x grid-container-padded">
+        <div class="grid-x grid-padding-x">
             <div class="cell">
                 <h2>Services</h2>
             </div>
         </div>
-        <div class="grid-x grid-container-padded">
+        <div class="grid-x grid-padding-x">
             <div class="cell medium-4">
                 <h3>UI Development</h3>
                 <ul>
@@ -131,12 +127,12 @@
     </section>
 
     <section id="third" data-magellan-target="third">
-        <div class="grid-x grid-container-padded">
+        <div class="grid-x grid-padding-x">
             <div class="cell">
                 <h2>About</h2>
             </div>
         </div>
-        <div class="grid-x grid-container-padded">
+        <div class="grid-x grid-padding-x">
             <div class="cell">
                 <p>As a small-town kid from humble beginnings, perched in front of my hearty, dial-up desktop,
                     I didn't exactly predict that I'd one day be poised on the opposite side of the screen.</p>
@@ -146,12 +142,12 @@
         </div>
     </section>
     <section id="fourth" data-magellan-target="fourth">
-        <div class="grid-x grid-container-padded">
+        <div class="grid-x grid-padding-x">
             <div class="cell">
                 <h2>Contact</h2>
             </div>
         </div>
-        <div class="grid-x grid-container-padded">
+        <div class="grid-x grid-padding-x">
             <div class="cell">
                 <img src="#" alt="">
                 <img src="#" alt="">
