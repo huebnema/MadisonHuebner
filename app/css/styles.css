@@ -45,13 +45,14 @@ h1 {
 h2 {
   font-family: 'Quicksand', sans-serif;
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 500;
   margin-top: 1rem;
   margin-bottom: 1rem; }
 
 h3 {
   font-family: 'Quicksand', sans-serif;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  font-weight: 400; }
 
 p {
   line-height: 1.25;
