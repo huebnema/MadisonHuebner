@@ -1,14 +1,16 @@
-/*Spacing*/
-/*Gutters: 3rem*/
+//Variables
+
+//Breakpoints
+$bp-small: 320px;
+$bp-medium: 768px;
+$bp-large: 1024px;
+$bp-xlarge: 1440px;
 
 /*Colors*/
-/*Gray: #6C6764*/
+$Gray: #6C6764;
+$LightGray: #cacaca;
 
-/*Breakpoints*/
-/*Small: 320px*/
-/*Medium: 768px*/
-/*Large: 1024px*/
-/*XLarge: 1440px*/
+
 
 * {
     box-sizing: border-box;
@@ -52,9 +54,17 @@ img {
     width: 100%;
 }
 
+hr {
+    max-width: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul, li {
+    font-family: 'Quicksand', sans-serif
+}
+
 h1 {
     font-size: 3.5rem;
-    font-family: 'Eczar', serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     margin-bottom: 0;
     margin-top: 6rem;
@@ -63,6 +73,7 @@ h1 {
 }
 
 h2 {
+    font-family: 'Quicksand', sans-serif;
     font-size: 2rem;
     font-weight: 600;
     margin-top: 1rem;
@@ -70,14 +81,16 @@ h2 {
 }
 
 h3 {
+    font-family: 'Quicksand', sans-serif;
     font-size: 1.5rem;
 }
 
 p {
     line-height: 1.25;
     margin-top: 0;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 1.25rem;
+    font-weight: 300;
 }
 
 ul {
@@ -100,4 +113,41 @@ li {
 
 .demo-toggle-title {
     margin-top: 0.5rem;
+}
+
+.menu {
+    a {
+        color: black;
+        font-weight: bold;
+    }
+}
+
+
+
+//Custom Styles
+.PictureFrame {
+    border: 3px solid $Gray;
+}
+
+
+//Utilities
+
+//Margins
+.MarginBottom {
+
+    &--1 {
+        margin-bottom: 1rem;
+    }
+
+    &--4 {
+        margin-bottom: 4rem;
+    }
+
+}
+
+//Font Weights
+.Weight {
+    &--Fine {
+        font-weight:300;
+    }
 }
