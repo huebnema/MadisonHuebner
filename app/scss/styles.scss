@@ -163,3 +163,12 @@ li {
     margin-left: 2rem;
     margin-right: 2rem;
 }
+
+//Foundation Overrides
+
+//This will bold the menu items when they are scrolled to the corresponding section. Foundation documentation says the class
+//is "active" but it's really "is-active"
+
+//.menu .is-active {
+//    font-weight: bold;
+//}

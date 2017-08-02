@@ -23,9 +23,10 @@
         </div>
         <div class="top-bar-right">
             <ul class="menu" data-magellan>
-                <li><a href="#first">One</a></li>
-                <li><a href="#second">Two</a></li>
-                <li><a href="#third">Three</a></li>
+                <li><a href="#first">Work</a></li>
+                <li><a href="#second">Services</a></li>
+                <li><a href="#third">About</a></li>
+                <li><a href="#fourth">Contact</a></li>
             </ul>
         </div>
     </div>
@@ -33,68 +34,73 @@
 
 <!-- Add content where magellan will be linked -->
 <div class="sections">
-    <section id="first" data-magellan-target="first">First Section</section>
-    <section id="second" data-magellan-target="second">Second Section</section>
-    <section id="third" data-magellan-target="third">Third Section</section>
+    <section id="fourth" data-magellan-target="fourth">Contact</section>
 </div>
 
 
 <header class="splash">
-    <nav>
-        <a href="#">Work</a>
-        <a href="#">Services</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-    </nav>
-        <h1>MADISON HUEBNER</h1>
-        <p class="splash__subtext">User Experience Designer and Developer</p>
+    <h1>MADISON HUEBNER</h1>
+    <p class="splash__subtext">User Experience Designer and Developer</p>
 </header>
 
 <main>
-    <section class="garden">
-        <h2 class="garden__title">Work</h2>
-        <article class="flower">
-            <aside class="flower__aside">
+    <section id="first" data-magellan-target="first">
+        <div class="grid-x grid-container-padded">
+            <div class="cell">
+                <h2>Work</h2>
+            </div>
+        </div>
+        <div class="grid-x grid-container-padded">
+            <div class="cell medium-6">
                 <img src="http://via.placeholder.com/350x250" alt="">
-            </aside>
-            <main class="flower__main">
-                <h3 class="flower__title">Safety Label Finder</h3>
-                <p class="flower__description">Due to the technical nature of Brady's products, it can be tough to
+            </div>
+            <div class="cell medium-6">
+                <h3>Safety Label Finder</h3>
+                <p>Due to the technical nature of Brady's products, it can be tough to
                     figure out which label to buy. The safety label finder translates technical specifications into
                     terms that users can understand.</p>
-                <p class="flower__description">Role: UX Design, UI Development</p>
-            </main>
-        </article>
-        <article class="flower">
-            <aside class="flower__aside">
+                <p>Role: UX Design, UI Development</p>
+            </div>
+        </div>
+        <div class="grid-x grid-container-padded">
+            <div class="cell medium-6">
                 <img src="http://via.placeholder.com/350x250" alt="">
-            </aside>
-            <main class="flower__main">
-                <h3 class="flower__title">Product Registration Form</h3>
-                <p class="flower__description">Brady's product registration form allows users to register their product
-                    with Brady so that they can get notified of things like upgrades and special announcements for their
-                    product. The redesigned form offers helpful suggestions in places where users might get stuck such
+            </div>
+            <div class="cell medium-6">
+                <h3>Product Registration Form</h3>
+                <p>Brady's product registration form allows users to register their
+                    product
+                    with Brady so that they can get notified of things like upgrades and special announcements for
+                    their
+                    product. The redesigned form offers helpful suggestions in places where users might get stuck
+                    such
                     as locating their product's serial number.</p>
-                <p class="flower__description">Role: UX Design</p>
-            </main>
-        </article>
-        <article class="flower">
-            <aside class="flower__aside">
+                <p>Role: UX Design</p>
+            </div>
+        </div>
+
+        <div class="grid-x grid-container-padded">
+            <div class="cell medium-6">
                 <img src="http://via.placeholder.com/350x250" alt="">
-            </aside>
-            <main class="flower__main">
-                <h3 class="flower__title">Mobile Website Checkout</h3>
-                <p class="flower__description">For the user who's in the field and runs out of labels, Brady's mobile
+            </div>
+            <div class="cell medium-6">
+                <h3>Mobile Website Checkout</h3>
+                <p>For the user who's in the field and runs out of labels, Brady's
+                    mobile
                     website allows them to order from a mobile device.</p>
-                <p class="flower__description">Role: UX Design, UI Design, UI Development</p>
-            </main>
-        </article>
+                <p>Role: UX Design, UI Design, UI Development</p>
+            </div>
+        </div>
     </section>
-    <section class="garden">
-        <h2 class="garden__title">Services</h2>
-        <div class="water">
-            <div class="water__item">
-                <p>UI Development</p>
+    <section id="second" data-magellan-target="second">
+        <div class="grid-x grid-container-padded">
+            <div class="cell">
+                <h2>Services</h2>
+            </div>
+        </div>
+        <div class="grid-x grid-container-padded">
+            <div class="cell medium-4">
+                <h3>UI Development</h3>
                 <ul>
                     <li>HTML</li>
                     <li>CSS/Sass</li>
@@ -103,8 +109,8 @@
                     <li>Design Systems</li>
                 </ul>
             </div>
-            <div class="water__item">
-                <p>UX Design</p>
+            <div class="cell medium-4">
+                <h3>UX Design</h3>
                 <ul>
                     <li>Stakeholder Interviews</li>
                     <li>Collaborative Design Facilitation</li>
@@ -113,8 +119,8 @@
                     <li>Usability Testing</li>
                 </ul>
             </div>
-            <div class="water__item">
-                <p>UI Design</p>
+            <div class="cell medium-4">
+                <h3>UI Design</h3>
                 <ul>
                     <li>Sketch</li>
                     <li>Whiteboarding</li>
@@ -123,34 +129,41 @@
             </div>
         </div>
     </section>
-    <section class="garden">
-        <h2 class="garden__title">About</h2>
-        <p class="gardener">As a small-town kid from humble beginnings, perched in front of my hearty, dial-up desktop,
-            I didn't exactly predict that I'd one day be poised on the opposite side of the screen.</p>
-        <p class="gardener">I've got roots in marketing, anthropology, research, and human connection. I enjoy bringing
-            positive digital experiences to life. </p>
 
+    <section id="third" data-magellan-target="third">
+        <div class="grid-x grid-container-padded">
+            <div class="cell">
+                <h2>About</h2>
+            </div>
+        </div>
+        <div class="grid-x grid-container-padded">
+            <div class="cell">
+                <p>As a small-town kid from humble beginnings, perched in front of my hearty, dial-up desktop,
+                    I didn't exactly predict that I'd one day be poised on the opposite side of the screen.</p>
+                <p>I've got roots in marketing, anthropology, research, and human connection. I enjoy bringing
+                    positive digital experiences to life.</p>
+            </div>
+        </div>
     </section>
-    <section class="garden">
-        <h2 class="garden__title">Contact</h2>
-        <div>
-            <img src="#" alt="">
-            <img src="#" alt="">
-            <img src="#" alt="">
+    <section id="fourth" data-magellan-target="fourth">
+        <div class="grid-x grid-container-padded">
+            <div class="cell">
+                <h2>Contact</h2>
+            </div>
+        </div>
+        <div class="grid-x grid-container-padded">
+            <div class="cell">
+                <img src="#" alt="">
+                <img src="#" alt="">
+                <img src="#" alt="">
+            </div>
         </div>
     </section>
     <!--build:js js/main.min.js -->
-    <!--<script src="../bower_components/jquery/dist/jquery.js"></script>-->
-    <!--<script src="../bower_components/what-input/dist/what-input.js"></script>-->
-    <!--<script src="../bower_components/foundation-sites/dist/js/foundation.js"></script>-->
-    <!--<script src="js/lib/foundation.min.js"></script>-->
-    <!--<script src="js/lib/jquery.min.js"></script>-->
-    <!--<script src="js/main.js"></script>-->
-    <!-- endbuild -->
     <script src="js/lib/jquery.min.js"></script>
     <script src="js/lib/foundation.min.js"></script>
     <script src="js/main.js"></script>
-    <script>$(document).foundation();</script>
+    <!-- endbuild -->
 </main>
 <footer>All work owned by employer, unless otherwise stated. Madison Huebner 2017</footer>
 </body>
