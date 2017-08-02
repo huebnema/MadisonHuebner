@@ -5,13 +5,40 @@
     <meta name="viewport" content="width=device-width">
     <title>Madison Huebner</title>
     <!--build:css css/styles.min.css-->
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/print.css">
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/foundation.css">
     <!--endbuild-->
     <link href="https://fonts.googleapis.com/css?family=Eczar:400,700|Work+Sans" rel="stylesheet">
 </head>
 <body>
+<div data-sticky-container>
+    <div class="top-bar" data-sticky data-margin-top="0" id="example-menu">
+        <div class="top-bar-left">
+            <ul class="menu">
+                <li class="menu-text">Madison Huebner</li>
+            </ul>
+        </div>
+        <div class="top-bar-right">
+            <ul class="menu" data-magellan>
+                <li><a href="#first">One</a></li>
+                <li><a href="#second">Two</a></li>
+                <li><a href="#third">Three</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Add content where magellan will be linked -->
+<div class="sections">
+    <section id="first" data-magellan-target="first">First Section</section>
+    <section id="second" data-magellan-target="second">Second Section</section>
+    <section id="third" data-magellan-target="third">Third Section</section>
+</div>
+
+
 <header class="splash">
     <nav>
         <a href="#">Work</a>
@@ -113,10 +140,17 @@
         </div>
     </section>
     <!--build:js js/main.min.js -->
-    <script src="js/lib/a-library.js"></script>
-    <script src="js/lib/another-library.js"></script>
-    <script src="js/main.js"></script>
+    <!--<script src="../bower_components/jquery/dist/jquery.js"></script>-->
+    <!--<script src="../bower_components/what-input/dist/what-input.js"></script>-->
+    <!--<script src="../bower_components/foundation-sites/dist/js/foundation.js"></script>-->
+    <!--<script src="js/lib/foundation.min.js"></script>-->
+    <!--<script src="js/lib/jquery.min.js"></script>-->
+    <!--<script src="js/main.js"></script>-->
     <!-- endbuild -->
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/foundation.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>$(document).foundation();</script>
 </main>
 <footer>All work owned by employer, unless otherwise stated. Madison Huebner 2017</footer>
 </body>
