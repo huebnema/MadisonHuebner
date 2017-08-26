@@ -41,14 +41,13 @@ h1 {
   font-size: 2.5rem;
   font-family: 'Roboto Slab', serif;
   font-weight: 500;
-  margin-bottom: 6rem;
-  margin-top: 6rem;
+  margin-bottom: 0;
   opacity: 0.9;
   text-align: center; }
 
 h2 {
   font-family: 'Roboto Slab', serif;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: 500;
   margin-top: 2rem;
   margin-bottom: 1.5rem;
@@ -58,7 +57,8 @@ h3 {
   line-height: 2;
   font-family: 'Quicksand', sans-serif;
   font-size: 1.5rem;
-  font-weight: 400; }
+  font-weight: 400;
+  text-transform: uppercase; }
 
 p {
   line-height: 2;
@@ -81,6 +81,9 @@ a {
 footer {
   font-weight: 300; }
 
+hr {
+  margin: 0; }
+
 .demo-toggle-title {
   margin-top: 0.5rem; }
 
@@ -93,8 +96,19 @@ footer {
   color: black;
   font-weight: 500; }
 
-.PictureFrame {
-  border: 1px solid #CCCCCC; }
+.Splash {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10rem 0;
+  text-align: center; }
+  .Splash__Title {
+    font-size: 3rem;
+    text-transform: uppercase; }
+  .Splash__Subtitle {
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 0;
+    margin-top: 1rem; }
 
 .MarginBottom--1 {
   margin-bottom: 1rem; }
