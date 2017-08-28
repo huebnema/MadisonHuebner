@@ -88,13 +88,16 @@ hr {
   margin-top: 0.5rem; }
 
 .top-bar {
-  background-color: #CCCCCC; }
+  background-color: white;
+  border-bottom: 1px solid #CCCCCC;
+  border-top: 1px solid #CCCCCC; }
   .top-bar ul {
     background-color: transparent; }
 
 .menu a {
   color: black;
-  font-weight: 500; }
+  font-weight: 500;
+  text-transform: uppercase; }
 
 .Splash {
   display: flex;
