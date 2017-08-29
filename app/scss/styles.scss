@@ -82,8 +82,8 @@ h2 {
     font-family: 'Roboto Slab', serif;
     font-size: 1.75rem;
     font-weight: 500;
-    margin-top: 2rem;
-    margin-bottom: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
     text-transform: uppercase;
 }
 
@@ -195,6 +195,10 @@ hr {
     }
 }
 
+.PictureFrame {
+    border: 1px solid $LightGray;
+}
+
 //Utilities
 
 //Margins
@@ -202,6 +206,10 @@ hr {
 
     &--1 {
         margin-bottom: 1rem;
+    }
+
+    &--2 {
+        margin-bottom: 2rem;
     }
 
     &--4 {
