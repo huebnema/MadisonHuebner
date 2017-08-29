@@ -99,6 +99,18 @@ hr {
   font-weight: 500;
   text-transform: uppercase; }
 
+.AnimateLink:after {
+  display: block;
+  content: '';
+  border-bottom: solid 2px #333333;
+  padding-top: 3px;
+  transform: scaleX(0);
+  transition: transform 300ms ease-in-out;
+  transform-origin: 0% 50%; }
+
+.AnimateLink:hover:after {
+  transform: scaleX(1); }
+
 .Splash {
   display: flex;
   flex-direction: column;

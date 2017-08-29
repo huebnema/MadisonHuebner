@@ -11,8 +11,6 @@ $Gray: #6C6764;
 $LightGray: #CCCCCC;
 $DarkGray: #333333;
 
-
-
 * {
     box-sizing: border-box;
 }
@@ -158,9 +156,25 @@ hr {
     }
 }
 
-
-
 //Custom Styles
+.AnimateLink {
+
+    &:after {
+        display: block;
+        content: '';
+        border-bottom: solid 2px $DarkGray;
+        padding-top: 3px;
+        transform: scaleX(0);
+        transition: transform 300ms ease-in-out;
+        transform-origin: 0% 50%;;
+    }
+    &:hover {
+        &:after {
+            transform: scaleX(1);
+        }
+    }
+}
+
 .Splash {
     display: flex;
     flex-direction: column;
@@ -198,6 +212,6 @@ hr {
 //Font Weights
 .Weight {
     &--Fine {
-        font-weight:300;
+        font-weight: 300;
     }
 }
