@@ -220,22 +220,19 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 5rem 0;
+    padding: 10rem 0;
     text-shadow: 1px 1px $DarkGray;
 
-    @media screen and (min-width: $bp-medium) {
-        padding: 10rem 0;
-
-    }
 
     &__Background {
         background: center center no-repeat
-
         linear-gradient(
                         rgba(0, 0, 0, 0.1),
                         rgba(0, 0, 0, 0.1)
         ),
         url(/images/splash-3.jpg);
+
+            background-size: 100%;
     }
 
     &__Title {
