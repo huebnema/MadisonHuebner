@@ -220,8 +220,13 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 10rem 0;
+    padding: 5rem 0;
     text-shadow: 1px 1px $DarkGray;
+
+    @media screen and (min-width: $bp-medium) {
+        padding: 10rem 0;
+
+    }
 
     &__Background {
         background: center center no-repeat
