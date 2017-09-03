@@ -169,10 +169,11 @@ hr {
 //Custom Styles
 
 //Reference:  https://css-tricks.com/snippets/css/typewriter-effect/
-.typewriter {
-    margin: auto;
+.Typewriter {
+    display: flex;
+    margin: 1rem auto;
 
-    .typewriter--content {
+    .Typewriter__Content {
         overflow: hidden; /* Ensures the content is not revealed until the animation */
         border-right: .1em solid; /* The typwriter cursor */
         white-space: nowrap; /* Keeps the content on a single line */
@@ -215,20 +216,32 @@ hr {
 }
 
 .Splash {
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 10rem 0;
-    text-align: center;
+    text-shadow: 1px 1px $DarkGray;
+
+    &__Background {
+        background: center center no-repeat
+
+        linear-gradient(
+                        rgba(0, 0, 0, 0.25),
+                        rgba(0, 0, 0, 0.25)
+        ),
+        url(/images/splash.jpg);
+
+    }
 
     &__Title {
         font-family: 'Quicksand', sans-serif;
         font-size: 2.5rem;
-        font-weight: 400;
+        font-weight: 500;
     }
 
     &__Opener {
-        font-size: 3rem;
+        font-size: 2rem;
         font-weight: 500;
         margin-bottom: 2rem;
         margin-top: 1rem;

@@ -105,9 +105,10 @@ hr {
   font-weight: 500;
   text-transform: uppercase; }
 
-.typewriter {
-  margin: auto; }
-  .typewriter .typewriter--content {
+.Typewriter {
+  display: flex;
+  margin: 1rem auto; }
+  .Typewriter .Typewriter__Content {
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
     border-right: .1em solid;
@@ -147,17 +148,20 @@ hr {
   transform: scaleX(1); }
 
 .Splash {
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 10rem 0;
-  text-align: center; }
+  text-shadow: 1px 1px #333333; }
+  .Splash__Background {
+    background: center center no-repeat linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(/images/splash.jpg); }
   .Splash__Title {
     font-family: 'Quicksand', sans-serif;
     font-size: 2.5rem;
-    font-weight: 400; }
+    font-weight: 500; }
   .Splash__Opener {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 500;
     margin-bottom: 2rem;
     margin-top: 1rem;
