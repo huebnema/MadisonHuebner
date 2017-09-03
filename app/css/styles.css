@@ -155,7 +155,8 @@ hr {
   padding: 10rem 0;
   text-shadow: 1px 1px #333333; }
   .Splash__Background {
-    background: center center no-repeat linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(/images/splash.jpg); }
+    background: center center no-repeat linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(/images/splash-2.jpg);
+    background-size: 100%; }
   .Splash__Title {
     font-family: 'Quicksand', sans-serif;
     font-size: 2.5rem;
