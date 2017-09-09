@@ -2,10 +2,6 @@
 * {
   box-sizing: border-box; }
 
-@media screen and (min-width: 768px) {
-  html {
-    border: #333333 solid 0.5rem; } }
-
 nav {
   background-color: white;
   display: flex;
@@ -90,8 +86,7 @@ hr {
 
 .top-bar {
   background-color: white;
-  border-bottom: 1px solid #CCCCCC;
-  border-top: 1px solid #CCCCCC; }
+  border-bottom: 1px solid #CCCCCC; }
   .top-bar ul {
     background-color: transparent; }
 
