@@ -86,7 +86,7 @@ h3 {
     line-height: 2;
     font-family: 'Quicksand', sans-serif;
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 500;
     text-transform: uppercase;
 }
 
@@ -95,7 +95,7 @@ p {
     margin-top: 0;
     font-family: 'Quicksand', sans-serif;
     font-size: 1.25rem;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 ul {
@@ -105,7 +105,7 @@ ul {
 
 li {
     font-size: 1.25rem;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 a {
@@ -117,7 +117,7 @@ a {
 }
 
 footer {
-    font-weight: 300;
+    font-weight: 400;
 }
 
 hr {
@@ -278,6 +278,10 @@ hr {
 //Font Weights
 .Weight {
     &--Fine {
-        font-weight: 300;
+        font-weight: 400;
+    }
+
+    &--Medium {
+        font-weight: 500;
     }
 }
