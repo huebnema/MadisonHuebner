@@ -100,6 +100,12 @@ hr {
   font-weight: 500;
   text-transform: uppercase; }
 
+.fa-2x:hover {
+  color: #990000; }
+
+.fa-2x:active {
+  color: #990000; }
+
 .Typewriter {
   display: flex;
   margin: 1rem auto; }
@@ -114,7 +120,8 @@ hr {
     /* Gives that scrolling effect as the typing happens */
     letter-spacing: .12em;
     /* Adjust as needed */
-    animation: typing 3s steps(20, end), blink-caret 0.75s step-end 5; }
+    animation: typing 3s steps(20, end), blink-caret 0.75s step-end 5;
+    font-weight: bold; }
 
 /* The typing effect */
 @keyframes typing {
@@ -133,7 +140,7 @@ hr {
 .AnimateLink:after {
   display: block;
   content: '';
-  border-bottom: solid 2px #333333;
+  border-bottom: solid 2px #990000;
   padding-top: 3px;
   transform: scaleX(0);
   transition: transform 300ms ease-in-out;
@@ -143,28 +150,29 @@ hr {
   transform: scaleX(1); }
 
 .Splash {
-  color: white;
+  color: #333333;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 5rem 0;
-  text-shadow: 1px 1px #333333; }
+  padding: 5rem 0; }
   @media screen and (min-width: 1024px) {
     .Splash {
-      padding: 10rem 0; } }
+      padding: 9rem 0; } }
   .Splash__Background {
-    background: center center no-repeat linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/splash-3.jpg); }
-    @media screen and (min-width: 1024px) {
-      .Splash__Background {
-        background-size: 100%; } }
+    background: center center url(../images/splash-3.png); }
   .Splash__Title {
     font-family: 'Quicksand', sans-serif;
     font-size: 2.5rem;
-    font-weight: 500; }
+    font-weight: 500;
+    margin: 2rem 0 2rem 0; }
+  .Splash__Subtitle {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin: 0 3rem 1rem 3rem; }
   .Splash__Opener {
     font-size: 2rem;
     font-weight: 500;
-    margin-bottom: 2rem;
     margin-top: 1rem;
     text-transform: uppercase; }
 
@@ -185,3 +193,6 @@ hr {
 
 .Weight--Medium {
   font-weight: 500; }
+
+.AccentUnderline {
+  border-bottom: 2px solid #990000; }
