@@ -228,7 +228,6 @@ hr {
     flex-direction: column;
     justify-content: center;
     padding: 5rem 0;
-    //text-shadow: 1px 1px $DarkGray;
 
     @media screen and (min-width: $bp-large) {
         padding: 9rem 0;
@@ -238,13 +237,6 @@ hr {
         background: center center
         url(../images/splash-3.png);
 
-
-
-        //
-        //@media screen and (min-width: $bp-large) {
-        //    background-size: 100%;
-        //
-        //}
     }
 
     &__Title {
