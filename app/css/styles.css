@@ -41,17 +41,20 @@ h1 {
   text-align: center; }
 
 h2 {
+  align-items: center;
+  color: #990000;
+  display: flex;
   font-family: 'Roboto Slab', serif;
-  font-size: 1.75rem;
+  font-size: 3rem;
   font-weight: 500;
-  margin-top: 3rem;
+  margin-top: 4rem;
   margin-bottom: 1rem;
   text-transform: uppercase; }
 
 h3 {
   line-height: 2;
   font-family: 'Quicksand', sans-serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 500;
   text-transform: uppercase; }
 
@@ -107,37 +110,6 @@ hr {
 .fa-2x:active {
   color: #990000; }
 
-.Typewriter {
-  display: flex;
-  margin: 1rem auto; }
-  .Typewriter .Typewriter__Content {
-    overflow: hidden;
-    /* Ensures the content is not revealed until the animation */
-    border-right: .1em solid;
-    /* The typwriter cursor */
-    white-space: nowrap;
-    /* Keeps the content on a single line */
-    margin: 0 auto;
-    /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .12em;
-    /* Adjust as needed */
-    animation: typing 3s steps(20, end), blink-caret 0.75s step-end 5;
-    font-weight: bold; }
-
-/* The typing effect */
-@keyframes typing {
-  from {
-    width: 0; }
-  to {
-    width: 100%; } }
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to {
-    border-color: transparent; }
-  50% {
-    border-color: inherit; } }
-
 .AnimateLink:after {
   display: block;
   content: '';
@@ -151,6 +123,7 @@ hr {
   transform: scaleX(1); }
 
 .Splash {
+  align-items: center;
   color: #333333;
   display: flex;
   flex-direction: column;
@@ -163,7 +136,7 @@ hr {
     background: center center url(../images/splash-3.png); }
   .Splash__Title {
     font-family: 'Quicksand', sans-serif;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 400;
     margin: 2rem 0 2rem 0; }
   .Splash__Subtitle {
@@ -179,6 +152,12 @@ hr {
 
 .PictureFrame {
   border: 1px solid #CCCCCC; }
+
+.SupportIcon {
+  fill: currentcolor;
+  margin: 0 1rem 0 0;
+  stroke: currentcolor;
+  width: 2.5rem; }
 
 .MarginBottom--1 {
   margin-bottom: 1rem; }
