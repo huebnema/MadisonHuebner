@@ -63,11 +63,11 @@ hr {
 }
 
 h1, h2, h3, h4, h5, h6, p, a, ul, li {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'oswald', sans-serif;
 }
 
 h1 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'raleway', serif;
     font-weight: 500;
     margin-bottom: 0;
     opacity: 0.9;
@@ -78,36 +78,52 @@ h2 {
     align-items: center;
     color: $Red;
     display: flex;
-    font-family: 'Roboto Slab', serif;
-    font-size: 3rem;
+    font-family: 'oswald', serif;
+    font-size: 2.5rem;
     font-weight: 500;
     margin-top: 4rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.75rem;
     text-transform: uppercase;
 }
 
 h3 {
     line-height: 2;
-    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 2rem;
+    font-family: 'oswald', sans-serif;
     font-size: 2rem;
     font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h4 {
+    align-items: center;
+    //color: $Red;
+    display: flex;
+    font-family: 'oswald', serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-bottom: 1.75rem;
     text-transform: uppercase;
 }
 
 p {
     line-height: 2;
     margin-top: 0;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'raleway', sans-serif;
     font-size: 1.25rem;
     font-weight: 400;
 }
 
 ul {
+    font-family: 'raleway', sans-serif;
     line-height: 2;
     padding-left: 1.5rem;
 }
 
 li {
+    font-family: 'raleway', sans-serif;
     font-size: 1.25rem;
     font-weight: 400;
 }
@@ -121,7 +137,7 @@ a {
 }
 
 footer {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'oswald', sans-serif;
     font-weight: 400;
 }
 
@@ -245,14 +261,14 @@ hr {
     }
 
     &__Title {
-        font-family: 'Quicksand', sans-serif;
-        font-size: 3rem;
+        font-family: 'oswald', sans-serif;
+        font-size: 3.1rem;
         font-weight: 400;
         margin: 2rem 0 2rem 0;
     }
 
     &__Subtitle {
-        font-family: 'Quicksand', sans-serif;
+        font-family: 'oswald', sans-serif;
         font-size: 1.75rem;
         font-weight: 500;
         margin: 0 3rem 1rem 3rem;
@@ -275,6 +291,10 @@ hr {
     margin: 0 1rem 0 0;
     stroke: currentcolor;
     width: 2.5rem;
+}
+
+.ListHeading {
+    margin: 0 0 2rem 0;
 }
 
 //Utilities
