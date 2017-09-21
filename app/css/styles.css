@@ -48,21 +48,22 @@ h2 {
   font-family: 'oswald', serif;
   font-size: 2.5rem;
   font-weight: 500;
-  margin-top: 5rem;
-  margin-bottom: 1.75rem;
+  margin-top: 5.25rem;
+  margin-bottom: 1.8rem;
   text-transform: uppercase; }
 
 h3 {
+  color: #333333;
   line-height: 2;
-  margin: 2rem 0 2rem 0;
+  margin: 2rem 0 1rem 0;
   font-family: 'oswald', sans-serif;
   font-size: 2rem;
   font-weight: 500;
-  text-align: center;
   text-transform: uppercase; }
 
 h4 {
   align-items: center;
+  color: #333333;
   display: flex;
   font-family: 'oswald', serif;
   font-size: 1.5rem;
@@ -130,11 +131,12 @@ hr {
   font-weight: 500;
   text-transform: uppercase; }
 
-.fa-2x:hover {
-  color: #990000; }
-
-.fa-2x:active {
-  color: #990000; }
+.fa-2x {
+  font-size: 3em; }
+  .fa-2x:hover {
+    color: #990000; }
+  .fa-2x:active {
+    color: #990000; }
 
 .AnimateLink:after {
   display: block;
@@ -190,7 +192,8 @@ hr {
     transform: rotate(45deg); }
 
 .ListHeading {
-  margin: 0 0 2rem 0; }
+  margin: 0 0 2rem 0;
+  text-align: center; }
 
 .MarginBottom--1 {
   margin-bottom: 1rem; }
