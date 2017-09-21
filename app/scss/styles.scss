@@ -81,14 +81,14 @@ h2 {
     font-family: 'oswald', serif;
     font-size: 2.5rem;
     font-weight: 500;
-    margin-top: 4rem;
+    margin-top: 5rem;
     margin-bottom: 1.75rem;
     text-transform: uppercase;
 }
 
 h3 {
     line-height: 2;
-    margin-bottom: 2rem;
+    margin: 2rem 0 2rem 0;
     font-family: 'oswald', sans-serif;
     font-size: 2rem;
     font-weight: 500;
@@ -119,6 +119,7 @@ p {
 ul {
     font-family: 'raleway', sans-serif;
     line-height: 2;
+    list-style: none;
     padding-left: 1.5rem;
 }
 
@@ -126,6 +127,15 @@ li {
     font-family: 'raleway', sans-serif;
     font-size: 1.25rem;
     font-weight: 400;
+
+    &:before {
+        color: $Red;
+        content: "•";
+        display: inline-block;
+        font-weight: bold;
+        width: 1em;
+        margin-left: -1em
+    }
 }
 
 a {
@@ -174,6 +184,12 @@ hr {
 }
 
 .menu {
+
+    li {
+        &:before {
+            display: none;
+        }
+    }
     a {
         color: black;
         font-weight: 500;
@@ -288,9 +304,18 @@ hr {
 
 .SupportIcon {
     fill: currentcolor;
-    margin: 0 1rem 0 0;
+    margin: 0 1.1rem 0 0;
     stroke: currentcolor;
-    width: 2.5rem;
+    width: 2.4rem;
+
+    &--Flipped {
+        transform: scaleX(-1);
+    }
+
+    &--Rotated45 {
+        transform: rotate(45deg);
+    }
+
 }
 
 .ListHeading {
