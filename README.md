@@ -1,4 +1,3 @@
 # MadisonHuebner
 
-Credit:  https://github.com/zellwk/gulp-starter-csstricks
-
+https://huebnema.github.io/MadisonHuebner/app/index.html
